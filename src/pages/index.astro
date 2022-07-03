@@ -1,0 +1,46 @@
+---
+import 'chota';
+import Hero from "../components/hero.svelte";
+
+const title = 'Addy Bhatia';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+  	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<title>{title}</title>
+</head>
+<body>
+	<Hero client:load />
+</body>
+</html>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg,#4F39FA, #DA62C4);
+
+		/* chota.css */
+		--bg-color: #ffffff;
+		--bg-secondary-color: #f3f3f6;
+		--color-primary: #14854F;
+		--color-lightGrey: #d2d6dd;
+		--color-grey: #747681;
+		--color-darkGrey: #3f4144;
+		--color-error: #d43939;
+		--color-success: #28bd14;
+		--grid-maxWidth: 120rem;
+		--grid-gutter: 2rem;
+		--font-size: 1.6rem;
+		--font-color: #333333;
+		--font-family-sans: sans-serif;
+		--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+	}
+
+	@keyframes pulse {
+		0%, 100% { background-position-y: 0%; }
+		50% { background-position-y: 80%; }
+	}
+</style>
