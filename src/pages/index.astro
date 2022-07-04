@@ -1,6 +1,8 @@
 ---
 import 'chota';
 import Hero from "../components/hero.svelte";
+import Nav from "../components/nav.svelte";
+import Footer from "../components/footer.svelte";
 
 const title = 'Addy Bhatia';
 ---
@@ -15,6 +17,8 @@ const title = 'Addy Bhatia';
 </head>
 <body>
 	<Hero client:load />
+	<Nav client:load />
+	<Footer client:visible />
 </body>
 </html>
 
@@ -39,8 +43,21 @@ const title = 'Addy Bhatia';
 		--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		padding:10px;
+	}
+
 	@keyframes pulse {
 		0%, 100% { background-position-y: 0%; }
 		50% { background-position-y: 80%; }
 	}
+
+	:global(.toast) {
+        --toastBackground: rgba(0,0,0,0.7);
+        --toastBarBackground: #4F39FA
+    }
 </style>

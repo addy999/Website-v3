@@ -18,6 +18,7 @@
         height: 100vh;
         display: flex;
         align-items: center;
+        width: 100%;
     }
 
     #title {
@@ -26,6 +27,7 @@
         margin: auto;
         align-items: center;
         z-index: 10;
+        gap: 5rem;
     }
 
     h1 {
@@ -35,6 +37,14 @@
 
     img {
         animation: bounce 5s infinite;
+        width: clamp(100px, 50vw, 500px);
+    }
+
+    @media (max-width: 600px) {
+        #title {
+            flex-direction: column;
+            gap: 5rem;
+        }
     }
 
     .text-gradient {
@@ -88,40 +98,40 @@
     }
 
     .stars:nth-child(1) {
-    background-position: 50% 50%;
-    animation-delay: 0s;
+        background-position: 50% 50%;
+        animation-delay: 0s;
     }
     .stars:nth-child(2) {
-    background-position: 20% 60%;
-    animation-delay: 1s;
+        background-position: 20% 60%;
+        animation-delay: 0s;
     }
     .stars:nth-child(3) {
-    background-position: -20% -30%;
-    animation-delay: 2s;
+        background-position: -20% -30%;
+        animation-delay: 1s;
     }
     .stars:nth-child(4) {
-    background-position: 40% -80%;
-    animation-delay: 3s;
+        background-position: 40% -80%;
+        animation-delay: 1s;
     }
     .stars:nth-child(5) {
-    background-position: -20% 30%;
-    animation-delay: 4s;
+        background-position: -20% 30%;
+        animation-delay: 2s;
     }
 
     @keyframes zoom {
-    0% {
-        opacity: 0;
-        transform: scale(0.5);
-        animation-timing-function: ease-in;
-    } 
-    85% {
-        opacity: 1;
-        transform: scale(2.8);
-        animation-timing-function: linear;
-    }
-    100% {
-        opacity: 0;
-        transform: scale(3.5);
-    }
+        0% {
+            opacity: 0;
+            transform: scale(0.5);
+            animation-timing-function: ease-in;
+        } 
+        85% {
+            opacity: 1;
+            transform: scale(2.8);
+            animation-timing-function: linear;
+        }
+        100% {
+            opacity: 0;
+            transform: scale(3.5);
+        }
     }
 </style>
