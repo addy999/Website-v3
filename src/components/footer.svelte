@@ -22,7 +22,11 @@
 
     footer {
         padding: 36px;
-        background-color: #DA62C4
+        background-color: #4F39FA
+    }
+
+    img {
+        filter: invert(1)
     }
 
     div {
