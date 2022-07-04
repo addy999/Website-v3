@@ -1,12 +1,6 @@
 <script lang="ts">
-    import { SvelteToast, toast } from '@zerodevx/svelte-toast'
-    import { onMount } from 'svelte';
+    import { toast } from '@zerodevx/svelte-toast';
 
-    onMount(() => {
-        const app = new SvelteToast({
-            target: document.body
-        })
-    })
     const onEmail = () => {
         navigator.clipboard.writeText('addy.bhatia@hey.com');
         toast.push(
@@ -27,8 +21,7 @@
 <style>
 
     footer {
-        padding: 10px;
-        
+        padding: 36px;
         background-color: #DA62C4
     }
 
@@ -41,9 +34,15 @@
 
     button, a {
         background-color: transparent;
-        width: clamp(30px, 5vw, 40px);
+        width: 25px;
         margin: auto;
         padding: 0px;
+    }
+
+    @media (min-width: 600px) {
+        button, a {
+            width: 30px;
+        }
     }
     
 

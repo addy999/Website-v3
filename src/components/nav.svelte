@@ -1,10 +1,26 @@
 <script lang="ts">
+    import { SvelteToast, toast } from '@zerodevx/svelte-toast';
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+        const app = new SvelteToast({
+            target: document.body
+        })
+    });
+
+    const onShowcase = () => {
+        toast.push(
+            "Coming soon!", {
+                classes: ['toast']
+            }
+        )
+    }
 
 </script>   
 
 <nav>
     <ul>
-        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#showcase" on:click={onShowcase}>Showcase</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
