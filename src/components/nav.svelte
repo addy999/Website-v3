@@ -53,6 +53,7 @@
         padding: 15px;
         padding-right: 20px;
         color: white;
+        z-index: 100000;
     }
 
     button {
