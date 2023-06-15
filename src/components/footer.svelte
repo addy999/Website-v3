@@ -12,7 +12,7 @@
     }
 </script>
 
-<footer id="contact">
+<footer>
     <div>
         <button on:click={onEmail}>
             <Icon src="{Mail}" solid />
@@ -24,6 +24,7 @@
             <Icon src="{Calendar}" solid />
         </a>
     </div>
+    <span id="contact" />
 </footer>
 
 <style>
