@@ -18,10 +18,10 @@ ML
          <a target="_blank" href="https://www.linkedin.com/company/giden">Giden</a>,
          <a target="_blank" href="https://www.linkedin.com/company/giden">Acrylic Robotics</a>,
          <a target="_blank" href="https://www.loftorbital.com/">Loft Orbital</a>,
-         <a target="_blank" href="https://www.walmart.ca/">Walmart</a>,and
+         <a target="_blank" href="https://www.walmart.ca/">Walmart</a>, and
          <a target="_blank" href="https://www.wealthsimple.com/en-ca/">Wealthsimple</a>
        </p>
-      <p>Currently you can find me at <a target="_blank" href="https://www.glossgenius.com/">GlossGenius</a>.</p>
+      <p>Currently, you can find me at <a target="_blank" href="https://www.glossgenius.com/">GlossGenius</a>.</p>
    </div>
 
    <div class="section">
@@ -33,11 +33,11 @@ ML
          </div>
          <div class="item" >
             <img src="/Screen Shot 2023-06-14 at 9.28.13 PM.png" alt="" />
-            <p><b>Aaja: </b>An app made during COVID to hlep you and your friends find movies to watch and places to eat, together.</p>
+            <p><b>Aaja: </b>An app made during COVID to help you and your friends find movies to watch and places to eat, together.</p>
          </div>
          <div class="item" >
             <a href="https://drive.google.com/file/d/1iG9m5AOaalxmbYr9JIcqRNYNVHWAuSyK/view" target="_blank" ><img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81ryPXAdGx5xenksGEDHGB1NIR82lwX7vdE9eNlFd8bsmCG1oDXqKaMZ724xrIVNUcLpUNBgD2xJDZLITzLOvXRjKq6o=w1920-h1080-k-pd" alt=""/></a>
-            <p><b>Autonomous Robot: </b>A maze solving robot made with Arduino and couple servo motors. Controlled with custom Python algortihms over bluetooth. Used multiple ultrasonic sensors to localize instantly.</p>
+            <p><b>Autonomous Robot: </b>A maze-solving robot made with Arduino and couple servo motors. Controlled with a custom Python algorithms over Bluetooth. Used multiple ultrasonic sensors to localize instantly.</p>
          </div>
          <!-- <div class="item" >
             <a href="https://drive.google.com/drive/u/0/folders/1Vsq7JVfx6SJh3gYwWaH1i021K_GzKL9q" target="_blank" ><img src="/Screen Shot 2023-06-14 at 9.51.44 PM.png" alt="" /></a>
@@ -51,11 +51,11 @@ ML
       <div class="container">
          <div class="item" >
             <img src="/Screen Shot 2023-06-14 at 9.59.48 PM.png" alt="" />
-            <p><b>Vibify:</b> Web app to let you feed in your entire Spotify library and output premade playlists by segmenting songs in similar clusters using hierarchical clustering on a custom FastAPI backend.</p>
+            <p><b>Vibify:</b> Web app to let you feed in your entire Spotify library and output pre-made playlists by segmenting songs in similar clusters using hierarchical clustering on a custom FastAPI backend.</p>
          </div>
          <div class="item" >
             <a href="https://suno.chat/" target="_blank" ><img src="/Screen Shot 2023-06-14 at 10.04.01 PM.png" alt="" /></a>
-            <p><b>Suno: </b>An app currently being developed using the advancements of LLM's to create a smart journal with an integrated chat bot to explore your feelings.</p>
+            <p><b>Suno: </b>An app currently being developed using the advancements of LLM's to create a smart journal with an integrated chatbot to explore your feelings.</p>
          </div>
          <div class="item" >
             <a href="https://medium.com/@baetia/creating-a-birthday-present-as-an-engineer-f2a7affe8484" target="_blank" ><img src="https://miro.medium.com/v2/resize:fit:3792/format:webp/1*O9ROQ7OXNyX318s4kSjNdw.png" alt="" /></a>
@@ -63,7 +63,7 @@ ML
          </div>
          <div class="item" >
             <a href="https://drive.google.com/drive/u/0/folders/1Vsq7JVfx6SJh3gYwWaH1i021K_GzKL9q" target="_blank" ><img src="/Screen Shot 2023-06-14 at 9.51.44 PM.png" alt=""/></a>
-            <p><b>Table Tennis Bot: </b>A robotic arm trainined with custom simulaton using Blender for physics engine. Used OpenAI Gym with Policy gradients to train a neural net with reinforcement learning.</p>
+            <p><b>Table Tennis Bot: </b>A robotic arm trained with a custom simulator using Blender for the physics engine. Used OpenAI Gym with Policy gradients to train a neural net with reinforcement learning.</p>
          </div>
       </div>
    </div>
@@ -74,7 +74,7 @@ ML
    #showcase {
       /* min-height: 100vh; */
       display: flex;
-      padding: 30px;
+      padding: 30px 10vw;
       background: #ffd516;
       flex-direction: column;
    }

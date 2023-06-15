@@ -1,6 +1,6 @@
 <script lang="ts">
     import { toast } from '@zerodevx/svelte-toast';
-    import { Icon, Mail, Calendar } from "svelte-hero-icons";
+    import { Icon, Mail, Calendar, Camera } from "svelte-hero-icons";
 
     const onEmail = () => {
         navigator.clipboard.writeText('addy.bhatia@hey.com');
@@ -23,6 +23,10 @@
         <a href="https://calendly.com/addybhatia/" target="blank_">
             <Icon src="{Calendar}" solid />
         </a>
+        <a href="https://instagram.com/addy.and.his.lens/" target="blank_">
+            <Icon src="{Camera}" solid />
+        </a>
+        
     </div>
     <span id="contact" />
 </footer>
