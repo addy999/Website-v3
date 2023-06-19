@@ -1,11 +1,5 @@
 <script lang="ts">
-   /*
-   Projects
-ML
-   - prerna boutique
-   - suno
-
-   */
+   import Robot from "./robot.jpeg";
 
 
 
@@ -36,7 +30,7 @@ ML
             <p><b>Aaja: </b>An app made during COVID to help you and your friends find movies to watch and places to eat, together.</p>
          </div>
          <div class="item" >
-            <a href="https://drive.google.com/file/d/1iG9m5AOaalxmbYr9JIcqRNYNVHWAuSyK/view" target="_blank" ><img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81ryPXAdGx5xenksGEDHGB1NIR82lwX7vdE9eNlFd8bsmCG1oDXqKaMZ724xrIVNUcLpUNBgD2xJDZLITzLOvXRjKq6o=w1920-h1080-k-pd" alt=""/></a>
+            <a href="https://drive.google.com/file/d/1iG9m5AOaalxmbYr9JIcqRNYNVHWAuSyK/view" target="_blank" ><img src={Robot} alt=""/></a>
             <p><b>Autonomous Robot: </b>A maze-solving robot made with Arduino and couple servo motors. Controlled with a custom Python algorithms over Bluetooth. Used multiple ultrasonic sensors to localize instantly.</p>
          </div>
          <!-- <div class="item" >
@@ -50,13 +44,18 @@ ML
       <h2 class="title">ML</h2>
       <div class="container">
          <div class="item" >
-            <img src="/Screen Shot 2023-06-14 at 9.59.48 PM.png" alt="" />
-            <p><b>Vibify:</b> Web app to let you feed in your entire Spotify library and output pre-made playlists by segmenting songs in similar clusters using hierarchical clustering on a custom FastAPI backend.</p>
+            <a href="https://optimistdigest.substack.com/" target="_blank" ><img src="https://substackcdn.com/image/fetch/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd48b320-5919-4522-846a-3b7123cbd4e0_3616x2048.bin" alt=""/></a>
+            <p><b>Optimist Digest: </b>I wanted to provide a place where people can stay informed about the world without feeling overwhelmed by anxiety and negativity. So I made a newsletter that used GPT-3.5 to re-phrase current news stories to sound optimistic while staying accurate.</p>
          </div>
          <div class="item" >
             <a href="https://suno.chat/" target="_blank" ><img src="/Screen Shot 2023-06-14 at 10.04.01 PM.png" alt="" /></a>
             <p><b>Suno: </b>An app currently being developed using the advancements of LLM's to create a smart journal with an integrated chatbot to explore your feelings.</p>
          </div>
+         <div class="item" >
+            <img src="/Screen Shot 2023-06-14 at 9.59.48 PM.png" alt="" />
+            <p><b>Vibify:</b> Web app to let you feed in your entire Spotify library and output pre-made playlists by segmenting songs in similar clusters using hierarchical clustering on a custom FastAPI backend.</p>
+         </div>
+         
          <div class="item" >
             <a href="https://medium.com/@baetia/creating-a-birthday-present-as-an-engineer-f2a7affe8484" target="_blank" ><img src="https://miro.medium.com/v2/resize:fit:3792/format:webp/1*O9ROQ7OXNyX318s4kSjNdw.png" alt="" /></a>
             <p><b>Prerna's Boutique: </b>A web app created for my partner to help her shop multiple online retailers at once by presenting all items in one place. A recommender system was built using cosine similarity where each product was vectorized based on skin coverage of the dress, price, and description keywords.</p>
@@ -65,6 +64,7 @@ ML
             <a href="https://drive.google.com/drive/u/0/folders/1Vsq7JVfx6SJh3gYwWaH1i021K_GzKL9q" target="_blank" ><img src="/Screen Shot 2023-06-14 at 9.51.44 PM.png" alt=""/></a>
             <p><b>Table Tennis Bot: </b>A robotic arm trained with a custom simulator using Blender for the physics engine. Used OpenAI Gym with Policy gradients to train a neural net with reinforcement learning.</p>
          </div>
+         
       </div>
    </div>
 </div>
